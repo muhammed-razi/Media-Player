@@ -119,6 +119,8 @@ function Category() {
           <Button onClick={handleAddCategory} variant="primary">Add</Button>
         </Modal.Footer>
       </Modal>
+      <ToastContainer position='top-center' theme='colored' autoclose={2000} />
+
     </>
   )
 }
